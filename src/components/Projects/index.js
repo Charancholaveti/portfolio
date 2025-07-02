@@ -30,7 +30,7 @@ const Projects = ({openModal,setOpenModal}) => {
           {toggle === 'android app' ?
             <ToggleButton active value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
             :
-            <ToggleButton value="android app" onClick={() => setToggle('android app')}>ARDUINO Project'S</ToggleButton>
+            <ToggleButton value="android app" onClick={() => setToggle('android app')}>Robotics Project'S</ToggleButton>
           }
           <Divider />
           {toggle === 'machine learning' ?
